@@ -1,0 +1,65 @@
+/*! 
+File: customize.css 
+Version: v1.0.0 
+Author: 
+Description: Foundation customized css, overriding styles
+*/
+
+body { 
+	background: #32cd32;
+	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
+h1 { font-size: 1.625rem; font-weight: 600; }
+h2 { font-size: 1.375rem; font-weight: 600; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; font-weight: 600; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+p { font-size: 0.875rem; }
+
+a {
+	color: #757575;
+	font-size: 0.875rem;
+	text-decoration: underline;
+}
+
+.top-bar,
+.tab-bar { 
+	background: none;
+	margin-top: 0.9375rem;
+}
+
+.tab-bar.no-margin { margin-top: 0; }
+
+.top-bar.expanded .title-area { background: none; }
+
+.top-bar .toggle-topbar.menu-icon a span:after,
+.tab-bar .menu-icon span:after { box-shadow: 0 0 0 1px #fff, 0 7px 0 1px #fff, 0 14px 0 1px #fff; }
+
+.tab-bar .menu-icon { 
+	background: #d4515b; 
+	border-radius: 3px;
+	margin-right: 0.125rem;
+}
+
+.top-bar-section ul li { 
+	background: none; 
+	/*margin-top: 5px;*/
+	margin-left: 0.75rem;
+}
+
+.top-bar-section ul li > a { text-transform: uppercase; }
+
+.top-bar-section ul li:hover:not(.has-form) > a { background: #bc2e39; }
+
+.right-small { border-left: none; }
+
+.button {
+	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	padding: .75rem 1.5rem .5rem;
+	text-transform: uppercase;
+}

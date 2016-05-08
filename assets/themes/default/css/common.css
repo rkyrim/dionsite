@@ -1,0 +1,475 @@
+/* header */
+@font-face {
+    font-family: 'fgb-normal';
+    src: url('../fonts/fgb-normal.ttf');
+    src: url('../fonts/fgb-normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fgb-demi';
+    src: url('../fonts/fgb-demi.ttf');
+    src: url('../fonts/fgb-demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rage';
+    src: url('../fonts/rage.ttf');
+    src: url('../fonts/rage.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #00aeef; 
+	font-family: 'fgb-normal';
+}
+
+/* icons */
+.fi-check { color: #77c043; }
+.fi-x { color: #c60f13; }
+
+.heading2 { padding: 1rem 0 0.8125rem; }
+
+.header3 { font-size: 1.5rem; }
+
+.fontrage {
+	color: #00aeef;
+	font-family: 'rage';
+	font-size: 2.5rem;
+}
+
+.mabuhay-text { 
+	color: #00aeef;
+	display: block;
+	font-family: 'rage';
+	font-size: 2.875rem; 
+}
+
+.main-content {
+	margin-bottom: 3.125rem;
+}
+
+.header-section { 
+	padding-top:  0.5rem;
+	position: relative;
+	-webkit-box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-section a { color: #fff; }
+
+.menu > li > a { 
+	font-size: 0.875rem;
+	text-transform: capitalize; 
+}
+
+.header-section,
+.top-bar, .top-bar ul { background-color: #77c043; }
+.top-bar, .top-bar li.menu-seperator { color: #fff; }
+
+.top-bar { padding: 0; }
+
+.top-bar .menu { margin-top: 0.5625rem; }
+
+/* mobile */
+.title-bar-right {
+	border: 1px solid #fff;
+	border-radius: 0.3125rem;
+	padding-bottom: 0.1875rem;
+	margin-top: 1.563rem;
+}
+
+.menu-icon {
+	width: 2.188rem;
+}
+
+.menu-icon:after {
+	height: 0.1875rem;
+	left: 0.125rem;
+}
+
+.brand-holder {
+	height: 5.75rem;
+	width: 15rem;
+}
+
+.off-canvas { 
+	background-color: #77c043; 
+	height: 100%;
+}
+
+.off-canvas,
+.off-canvas a {
+	color: #fff;
+}
+
+.off-canvas-menu {
+	margin: 0.875rem 0.625rem;
+}
+
+.off-canvas-menu ul.submenu li {
+	border-bottom: 1px dotted #fff;
+}
+
+.brandname {
+	/*background-image: url("../images/brand-name.png");*/
+	background-image: url("../images/company-logo.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -99999px;
+}
+
+.user-control { margin-top: 0.25rem;  }
+
+a.signup-btn {
+	background-color: #fff;
+	border-radius: 0.625rem;
+	color: #77c043;
+	font-weight: bold;
+	padding:  0.125rem 0.5rem;
+}
+
+/* home style */
+
+.about-section {
+	min-height: 25rem;
+}
+
+.about-section .left-pane { margin-top: 3.938rem; }
+
+.getstarted-section {
+	background-color: #77c043;
+	padding: 0.9375rem 0;
+}
+
+.getstarted-section a {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-family: 'fgb-normal';
+	font-size: 1.5rem;
+	padding: 0.125rem 0.625rem;
+	text-transform: uppercase;
+}
+
+.about-section,
+.howitworks-section,
+.ourstory-section,
+.safety-section {
+	padding-bottom: 1.875rem;
+}
+
+.howitworks-section {
+	background-color: #defcc9;
+	min-height: 15.63rem;
+}
+
+.howitworks-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.howitworks-section .step-header {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+/* about us page */
+.about-banner {
+	background-color: #f9f8f6;
+}
+
+.about-baner .banner {
+	position: relative;
+	width: 100%;
+}
+
+.about-banner .tagline {
+	color: #77c043;
+	font-family: 'fgb-normal';
+	font-size: 2.25rem;
+}
+
+.about-banner .fontrage {
+	font-size: 4.25rem;
+	line-height: 0;
+}
+
+.banner-holder { 
+	padding: 2.063rem 0;
+	position: relative; 
+}
+
+.banner-holder .nanny {
+	background-image: url("../images/nanny.png");
+	background-position: center;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	width: 67%;
+	position: absolute;
+	right: -7.063rem;
+	top: 0;
+}
+
+.ourstory-section {
+	background-color: #e7efc1;
+}
+
+.behind-dion-section img,
+.ourstory-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ourstory-section h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.ourstory-section small {
+	color: #00aeef;
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.ourstory-section .story-tagline {
+	color: #00aeef;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.behind-dion-section h4 {
+	font-weight: bold;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.behind-dion-section h4,
+.behind-dion-section small {
+	color: #00aeef;
+}
+
+/* services page */
+.service-care-section h3 {
+	font-family: 'fgb-demi';
+	font-size: 1.875rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.service-care-section ul {
+	margin: 0 2.188rem;
+}
+
+.service-care-section ul li {
+	list-style: none;
+	border-bottom: 1px dotted #77c043;
+	padding: 0.625rem 0 0;
+}
+
+.service-care-section .care-column {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius:  1.563rem;
+	height: 35.25rem;
+	padding-top: 1.25rem;
+	position: relative;
+	width: 90%;
+}
+
+.care-column > img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 14.19rem;
+}
+
+.care-column img.get-start-arrow {
+	bottom: 0.1875rem;
+	position: relative;
+}
+
+.service-care-section .child-care {
+	background-image: url("../images/childcare-bg.jpg");
+}
+
+.service-care-section .adult-care {
+	background-image: url("../images/adultcare-bg.jpg");
+}
+
+.service-care-section .other-care {
+	background-image: url("../images/housekeeping-bg.jpg");
+}
+
+.service-care-section .get-start {
+	background-color: #77c043;
+	border-bottom-left-radius: 1.125rem;
+	border-bottom-right-radius: 1.125rem;
+	bottom: 3.063rem; /* 49px = 3.063rem */
+	color: #fff;
+	display: block;
+	font-family: 'fgb-demi';
+	font-size: 1.875rem;
+	padding: 0.375rem;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/* FAQ */
+.faq-section {
+	min-height: 37.5rem;
+}
+
+.faq-section .accordion-content {
+	background-color: #e7efc1;
+}
+
+.faq-section .accordion-title {
+	background-color: #00aeef;
+	color: #fff;
+	font-family: 'fgb-normal';
+	font-size: 1.25rem;
+}
+
+/* contact us */
+.contact-form .expand {
+	margin: 10px auto 0;
+	width: 50%;
+}
+
+/* Terms and Conditions */
+ul.terms-list {
+	list-style-type: upper-roman;
+	font-weight: bold;
+}
+
+ul.terms-list p {
+	font-weight: normal;
+}
+
+ul.terms-list li ol {
+	margin-left: 2.438rem;
+}
+
+ul.terms-list li span {
+	display: block;
+	margin-left: 2.438rem;
+}
+/* Register page */
+.signup-section label {
+	display: inline-block;
+	color: #00aeef;
+}
+
+
+.signup-section .letsgo { font-size: 1.375rem; }
+
+.signup-holder {
+	margin-top: 2.5rem;
+}
+
+.signup-holder label {
+	font-family: 'fgb-normal';
+	font-size: 1.125rem;
+}
+
+.signup-holder span.nanny-label {
+	font-family: 'rage';
+	font-size: 2rem;
+	line-height: 0;
+}
+
+.signup-holder span.nanny-looking-for { color: #000; }
+
+.signup-holder .button {
+	width: 40%;
+}
+
+.signup-holder label.terms {
+	font-family: 'arial';
+	color: #000;
+	line-height: 0.5;
+}
+
+/* login */
+.login-section { min-height: 31.25rem; }
+
+/* confirmation styles */
+.confirmation-section {
+	min-height: 37.5rem;
+}
+
+.confirm-holder {
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	margin-top: 3.125rem;
+}
+
+.confirm-holder p {
+	font-family: 'fgb-demi';
+	font-size: 2.5rem;
+}
+
+.confirm-holder.success { border-color: #77c043; }
+.confirm-holder.alert { border-color: #c60f13; }
+
+.confirm-icon {
+	font-size: 5.625rem;
+}
+
+/* footer */
+.footer {
+	background-color: #4f4c4c;
+	padding: 0.9375rem 0.625rem 0.625rem;
+}
+
+.footer ul {
+	margin: 0 auto 1.875rem;
+	padding: 0;
+	width: 50%;
+}
+
+.footer,
+.footer a { 
+	color: #fff; 
+	font-size: 0.875rem;
+}
+
+.footer ul li {
+	border-right: 1px solid #fff;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+
+.footer ul li:last-child {
+	border: none;
+}
+
+.footer li a {
+	display: block;
+	padding: 1px 0.625rem;
+}
+
+.footer .findus {
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,66 @@
+/*! 
+File: common.css 
+Version: v1.0.0 
+Author: 
+Description: Common styles through out all pages
+*/
+.site-logo {
+	background: url(../img/logo.png) no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	height: 49px;
+	width: 203px !important;
+}
+
+.header-bar {
+	background: #000;
+	padding-bottom: 1.563rem;
+}
+
+.main-section { 
+	padding-top: 1.875rem;
+	min-height: 25rem;
+}
+
+.site-background { 
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+/* Forms Style */
+
+
+.footer-bar {
+	background: #000000;
+	border-top: 5px solid #999;
+	color: #fff;
+	padding-bottom: 1.25rem;
+}
+
+.footer-bar .footer-nav { 
+	margin-top: 1.25rem; 
+	text-transform: uppercase;
+}
+
+.footer-nav .copyright { 
+	font-size: 0.6875rem;
+	margin-left: 1.25rem;
+}
+
+.footer-nav a {
+	color: #fff;
+	font-size: 0.6875rem;
+	text-decoration: none;
+}
+
+.footer-nav a:hover { color: #ca323e; }
+
+.footer-nav ul.inline-list > li {
+	border-right: 1px solid #fff;
+	padding-right: 1.375rem;
+}
+
+.footer-nav ul.inline-list > li:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
